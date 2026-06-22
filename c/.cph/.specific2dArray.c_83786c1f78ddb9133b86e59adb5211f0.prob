@@ -1,1 +1,0 @@
-{"name":"Local: specific2dArray","url":"d:\\phitron\\problem_solving\\c\\specific2dArray.c","tests":[{"id":1782077178808,"input":"3 3\n1 2 3\n4 5 6\n7 8 9\n0 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\phitron\\problem_solving\\c\\specific2dArray.c","group":"local","local":true}
