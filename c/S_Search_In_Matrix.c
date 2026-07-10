@@ -6,18 +6,18 @@ int main()
     int n, m;
     scanf("%d %d", &n, &m);
 
-    int a[n][m];
+    int arr[n][m];
 
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
         {
-            scanf("%d", &a[i][j]);
+            scanf("%d", &arr[i][j]);
         }
     }
 
-    int x;
-    scanf("%d", &x);
+    int exists;
+    scanf("%d", &exists);
 
     bool found = false;
 
@@ -25,7 +25,7 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
-            if (a[i][j] == x)
+            if (arr[i][j] == exists)
             {
                 found = true;
             }
@@ -40,6 +40,4 @@ int main()
     {
         printf("will take number");
     }
-
-    return 0;
 }
