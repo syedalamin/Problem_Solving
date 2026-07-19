@@ -22,6 +22,7 @@ void insert_at_tail(Node *&head, Node *&tail, int val)
     {
         head = newnode;
         tail = newnode;
+        return;
     }
 
     tail->next = newnode;
