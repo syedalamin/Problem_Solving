@@ -40,6 +40,43 @@ void print_linked_list(Node *head)
     cout << "\n";
 }
 
+void printMiddle(Node *head)
+{
+    Node *temp = head;
+
+    int size = 0;
+
+    while (temp != NULL)
+    {
+        size++;
+        temp = temp->next;
+    }
+
+    int mididx = size / 2;
+
+    if (size % 2 == 0)
+    {
+        Node *current = head;
+        for (int i = 0; i < mididx -1; i++)
+        {
+          
+            current = current->next;
+        }
+        cout<< current->val << " " << current->next->val << "\n";
+    }
+    else
+    {
+        Node* current = head;
+        for (int i = 0; i < mididx; i++)
+        {
+           
+            current = current->next;
+        }
+
+        cout<< current->val << "\n";
+
+    }
+}
 
 int main()
 {
@@ -61,7 +98,7 @@ int main()
         insert_at_tail(head, tail, val);
     }
 
-
+    printMiddle(head);
 
     return 0;
 }
