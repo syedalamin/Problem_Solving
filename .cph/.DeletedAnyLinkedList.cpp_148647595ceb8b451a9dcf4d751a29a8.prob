@@ -1,0 +1,1 @@
+{"name":"Local: DeletedAnyLinkedList","url":"/home/syed-alamin/Desktop/Problem_Solving/DeletedAnyLinkedList.cpp","tests":[{"id":1784729375727,"input":"10 20 30 40 50 60 -1","output":"10 40 50 60 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/syed-alamin/Desktop/Problem_Solving/DeletedAnyLinkedList.cpp","group":"local","local":true}
