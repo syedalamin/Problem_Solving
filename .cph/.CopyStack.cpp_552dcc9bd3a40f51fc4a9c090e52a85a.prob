@@ -1,0 +1,1 @@
+{"name":"Local: CopyStack","url":"/home/syed-alamin/Desktop/Problem_Solving/CopyStack.cpp","tests":[{"id":1785968585633,"input":"5\n10 20 30 40 50","output":"10 20 30 40 50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/syed-alamin/Desktop/Problem_Solving/CopyStack.cpp","group":"local","local":true}
