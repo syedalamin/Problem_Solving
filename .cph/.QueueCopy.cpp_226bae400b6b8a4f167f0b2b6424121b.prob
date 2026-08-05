@@ -1,0 +1,1 @@
+{"name":"Local: QueueCopy","url":"/home/syed-alamin/Desktop/Problem_Solving/QueueCopy.cpp","tests":[{"id":1785969199401,"input":"5\n10 20 30 40 50","output":"50 40 30 20 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/syed-alamin/Desktop/Problem_Solving/QueueCopy.cpp","group":"local","local":true}
